@@ -72,4 +72,28 @@ class MainTest {
         assertEquals(expected, actual);
     }
 
+
+    @Test
+    void isPositiv_when3_thenTrue(){
+        //Given
+        int a = 3;
+
+        //Expected
+        boolean actual = Main.isPositiv(a);
+
+        //Then
+        assertTrue(actual);
+    }
+
+    @Test
+    void isPositiv_whenMinus3123_thenFalse(){
+        //Given
+        int a = -3123;
+
+        //Expected
+        boolean actual = Main.isPositiv(a);
+
+        //Then
+        assertFalse(actual);
+    }
 }

@@ -32,4 +32,7 @@ public class Main
         return s.toUpperCase();
     }
 
+    public static boolean isPositiv(int a){
+        return a >= 0;
+    }
 }
