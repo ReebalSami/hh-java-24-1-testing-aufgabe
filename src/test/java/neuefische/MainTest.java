@@ -22,6 +22,18 @@ class MainTest {
         assertEquals(expected, actual);
     }
 
+    @Test
+    void productNum_whenTwoProductTwo_thenReturnFour() {
+        //given
+        int a = 2;
+        int b = 2;
+        int expected = 4;
+
+        //expected
+        int actual = Main.productNum(a, b);
 
 
+        //then
+        assertEquals(expected, actual);
+    }
 }
