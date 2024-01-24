@@ -36,4 +36,28 @@ class MainTest {
         //then
         assertEquals(expected, actual);
     }
+
+    @Test
+    void isEven_when3_thenReturnFalse(){
+        //Given
+        int a = 3;
+
+        //Expected
+        boolean actual = Main.isEven(a);
+
+        //Then
+        assertFalse(actual);
+    }
+
+    @Test
+    void isEven_when4_thenReturnTrue(){
+        //Given
+        int a = 4;
+
+        //Expected
+        boolean actual = Main.isEven(a);
+
+        //Then
+        assertTrue(actual);
+    }
 }
