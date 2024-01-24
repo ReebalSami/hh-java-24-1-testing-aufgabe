@@ -27,4 +27,9 @@ public class Main
             return false;
         }
     }
+
+    public static String changeUppercase (String s){
+        return s.toUpperCase();
+    }
+
 }

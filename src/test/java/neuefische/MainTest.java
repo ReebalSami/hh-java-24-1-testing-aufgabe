@@ -60,4 +60,16 @@ class MainTest {
         //Then
         assertTrue(actual);
     }
+
+    @Test
+    void changeUppercase_whenauto_thenAUTO(){
+        // Given
+        String s = "auto";
+        String expected = "AUTO";
+        // Expected
+        String actual = Main.changeUppercase(s);
+        // Then
+        assertEquals(expected, actual);
+    }
+
 }

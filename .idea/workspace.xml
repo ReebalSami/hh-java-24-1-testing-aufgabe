@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ebef982-fa3b-4817-940e-39418f440f62" name="Changes" comment="changeNameOfTestMethod" />
+    <list default="true" id="2ebef982-fa3b-4817-940e-39418f440f62" name="Changes" comment="changeNameOfTestMethod">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neuefische/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neuefische/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/neuefische/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/neuefische/MainTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +31,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.MainTest.addNum_whenOnePlusOne_ThenReturnTwo.executor": "Run",
+    "JUnit.MainTest.changeUppercase_whenauto_thenAUTO.executor": "Run",
     "JUnit.MainTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -37,10 +44,13 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/Users/reebal/neuefische/Java Development/hh-java-24-1-testing-aufgabe/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MainTest">
+  <component name="RunManager" selected="JUnit.MainTest.changeUppercase_whenauto_thenAUTO">
     <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hh-java-24-1-testing-aufgabe" />
       <extension name="coverage">
@@ -72,8 +82,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTest.changeUppercase_whenauto_thenAUTO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hh-java-24-1-testing-aufgabe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="neuefische.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="neuefische" />
+      <option name="MAIN_CLASS_NAME" value="neuefische.MainTest" />
+      <option name="METHOD_NAME" value="changeUppercase_whenauto_thenAUTO" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest.changeUppercase_whenauto_thenAUTO" />
         <item itemvalue="JUnit.MainTest" />
         <item itemvalue="JUnit.MainTest.addNum_whenOnePlusOne_ThenReturnTwo" />
       </list>
@@ -82,6 +109,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-f644763e9732-af3fa2b8" />
         <option value="jdk-21.0.2-openjdk-21.0.2-f644763e9732-c0c073db" />
       </set>
     </attachedChunks>
@@ -96,6 +124,7 @@
       <updated>1706102826366</updated>
       <workItem from="1706102827590" duration="1000" />
       <workItem from="1706105226646" duration="1011000" />
+      <workItem from="1706107284247" duration="1696000" />
     </task>
     <task id="LOCAL-00001" summary="changeNameOfTestMethod">
       <option name="closed" value="true" />
