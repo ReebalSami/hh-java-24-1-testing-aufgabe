@@ -7,7 +7,8 @@ import static org.junit.jupiter.api.Assertions.*;
 class MainTest {
 
     @Test
-    void addNum() {
+
+    void addNum_whenOnePlusOne_ThenReturnTwo() {
         //given
         int a = 1;
         int b = 1;
